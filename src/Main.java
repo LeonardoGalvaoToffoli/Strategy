@@ -1,5 +1,5 @@
 void main(){
-    FreteStrategy frete = new FreteExpresso();
+    FreteStrategy frete = new FreteExpresso(); // FreteNormal() ou FreteRetirada()
 
     Pedido pedido = new Pedido(frete);
 
